@@ -74,6 +74,6 @@ This will start a local server, and you can open the provided URL in your browse
 Here are a few examples of questions you can ask the agent:
 
 * **Simple Lookup:** "What were Michael Jordan's per-game stats in the 1998 season?"
-* **Time-Based Aggregation:** "How many total rebounds did Shaquille O'Neal have during the 2001 playoffs?"
+* **Time-Based Aggregation:** "How many total rebounds did Shaquille O'Neal have in April 2001?"
 * **Comparative Analysis:** "Who had a higher Player Efficiency Rating (PER) in their rookie season, LeBron James or Michael Jordan?"
 * **Complex Argument:** "Explain why you think Nikola Jokic is the best offensive center of all time, using stats to back up your claims."
