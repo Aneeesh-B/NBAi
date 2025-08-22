@@ -52,13 +52,7 @@ pip install -r requirements.txt
 Before running the agent, you need to set up your data, API credentials, and table embeddings.
 
 #### Step A: Set Up the Database
-Download the NBA statistics dataset. A great source is the [NBA Stats dataset on Kaggle](https://www.kaggle.com/datasets/nathanlauga/nba-games).
-Unzip the archive and place all the `.csv` files into a new folder named `data_csvs` in the root of the project directory.
-Run the `create_database.py` script to compile all the CSVs into a single SQLite database file.
-```bash
-python create_database.py
-```
-This will create an `nba_stats.db` file, which the agent will query.
+Since the database was made in a SQLite file, it must be downloaded locally onto your computer and stored in the root directory. Here's the file: https://drive.google.com/file/d/1Wa7l0w53uWItEoJ2WOcn_8-WswbIUra-/view?usp=sharing
 
 #### Step B: Set Up Your API Key
 Create a file named `.env` in the root of your project directory.
