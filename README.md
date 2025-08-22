@@ -62,13 +62,6 @@ GOOGLE_API_KEY="your-google-api-key-here"
 GOOGLE_CLOUD_PROJECT="your-gcp-project-id-here"
 ```
 
-#### Step C: Pre-compute Table Embeddings
-To enable the intelligent table retrieval, you must run a one-time script to analyze the database schema and save the embeddings locally.
-```bash
-python create_embeddings.py
-```
-This will create a `table_embeddings.npz` file. You only need to do this once, unless you change the database schema.
-
 ### 🏃‍♀️ Running the Agent
 With the setup complete, you can now start the interactive chat application.
 This project uses Chainlit to create the web interface. To run the app, execute the following command in your terminal:
