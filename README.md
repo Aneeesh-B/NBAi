@@ -64,11 +64,11 @@ GOOGLE_CLOUD_PROJECT="your-gcp-project-id-here"
 
 ### 🏃‍♀️ Running the Agent
 With the setup complete, you can now start the interactive chat application.
-This project uses Chainlit to create the web interface. To run the app, execute the following command in your terminal:
+This project can be run using Google ADK's built in web interface:
 ```bash
-chainlit run app.py -w
+adk web
 ```
-This will start a local server, and you can open the provided URL in your browser to begin chatting with the NBAi agent. The `-w` flag enables auto-reloading, which is helpful for development.
+This will start a local server, and you can open the provided URL in your browser to begin chatting with the NBAi agent.
 
 ### 💬 Example Questions
 Here are a few examples of questions you can ask the agent:
