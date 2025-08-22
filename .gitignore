@@ -1,0 +1,7 @@
+venv
+__pycache__
+nba_stats_csvs
+red-data-461820-m5-2c5f4ef79965.json
+.env
+PlayerStatistics.csv
+nba_stats.db
